@@ -1,0 +1,36 @@
+{
+  "name": "mysubmission",
+  "version": "1.0.0",
+  "description": "mysubmission",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js",
+    "serve": "http-server ./dist"
+  },
+  "author": "asrul.png",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "http-server": "^0.12.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
